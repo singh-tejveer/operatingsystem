@@ -1,2 +1,3 @@
 # operatingsystem
 Disc Scheduling Algorithms
+Disc scheduling algorithms manage how read/write requests are handled by the disk’s I/O system to improve access time and efficiency. Common algorithms include **FCFS (First Come First Serve)**, which processes requests sequentially; **SSTF (Shortest Seek Time First)**, which selects the nearest request to minimize seek time; **SCAN**, where the head moves in one direction servicing requests, then reverses; **C-SCAN**, which only services in one direction and resets quickly; and **LOOK/C-LOOK**, which act like SCAN but stop at the last request. Efficient scheduling reduces seek time, latency, and overall system response time in operating systems.
